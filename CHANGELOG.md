@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - Evitar execução caso o programa não tenha Privilégios Administrativos
 - Adicionar verificação se o arquivo é de certificados ou não.
+- Avisar se a pasta Todos foi encontrada ou não antes da execução.
 
 ## [0.0.2] - 2021-08-19
 ### Changed
