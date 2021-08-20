@@ -6,7 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
-- Separar pasta ROOT e PESSOAL. Para também ser possível instalar certificados pessoais. (Talvez mais alguns futuramente...)
+- Separar pasta ROOT e PESSOAL. Para também ser possível instalar certificados pessoais. (Talvez mais alguns futuramente...).
+- Avisar pastas vazias.
 - Pensando em mais coisas para adicionar...
 
 ## [0.0.3] - 2021-08-20
@@ -26,6 +27,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Instalação dos certificados digitais utilizando subprocess para chamar "certutil" no Windows.
 - Automaticamente solicita Privilégios Administrativos, com PyUAC.
 
-
+[0.0.3]: https://github.com/MrMineToons/Auto-Certificate-Installer-py/releases/tag/0.0.3
 [0.0.2]: https://github.com/MrMineToons/Auto-Certificate-Installer-py/releases/tag/0.0.2
 [0.0.1]: unreleased
