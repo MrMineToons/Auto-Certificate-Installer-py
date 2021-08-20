@@ -6,20 +6,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
-- Evitar execução caso o programa não tenha Privilégios Administrativos
-- Adicionar verificação se o arquivo é de certificados ou não.
-- Avisar se a pasta Todos foi encontrada ou não antes da execução.
+- Separar pasta ROOT e PESSOAL. Para também ser possível instalar certificados pessoais. (Talvez mais alguns futuramente...)
+- Pensando em mais coisas para adicionar...
+
+## [0.0.3] - 2021-08-20
+### Added
+- Evitar a execução se o programa não tem Privilégios Administrativos.
+- Evitar a execução se a pasta "Todos" não foi encontrada.
+- Na listagem dos certificados, apenas arquivos do tipo .cer, .crt, .p7b, .pem, .der, .pfx (Estes são os tipos que eu conheço).
 
 ## [0.0.2] - 2021-08-19
 ### Changed
-- PyUAC Removido, e agora utilizando a opção --uac-admin no PyInstaller
+- PyUAC Removido, e agora utilizando a opção --uac-admin no PyInstaller.
 
 
 ## [0.0.1] - 2021-08-19
 ### Added
 - Leitura do diretório "TODOS" para coletar todos os certificados digitais do diretório.
 - Instalação dos certificados digitais utilizando subprocess para chamar "certutil" no Windows.
-- Automaticamente solicita Privilégios Administrativos, com PyUAC
+- Automaticamente solicita Privilégios Administrativos, com PyUAC.
 
 
 [0.0.2]: https://github.com/MrMineToons/Auto-Certificate-Installer-py/releases/tag/0.0.2
